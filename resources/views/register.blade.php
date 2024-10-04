@@ -47,7 +47,7 @@
                     <label for="state">Estado:</label>
                     <!--Remember to add the required arugument -->
                     <select class="form-control" id="state" name="state" >
-                        <!-- Opções de estados -->
+                        <!-- Aqui ficariam as opções de estados -->
                     
                             <option value=""></option>
                         
@@ -58,7 +58,7 @@
                     <label for="city">Cidade:</label>
                     <!--Remember to add the required arugument -->
                     <select class="form-control" id="city" name="city" >
-                        <!-- Opções de cidades serão carregadas aqui -->
+                        <!--aqui ficariam as opções de cidedes baseadas na UF do esatado -->
                     </select>
                 </div>
 
