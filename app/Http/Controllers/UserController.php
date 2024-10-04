@@ -19,7 +19,7 @@ class UserController extends Controller
             ]);
            
             User :: create($incomingFields);
-            return 'tahhhhel';
+            return redirect('home');
     }
 
 }
